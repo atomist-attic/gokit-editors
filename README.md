@@ -11,7 +11,7 @@ a [Go kit][go-kit] projects.
 
 ### AddGokitMicroserviceDockerfile
 
-The AddGokitMicroserviceDockerfile Editor adds an appropriate [Docker][docker] [Dockerfile][dockerfile] to an existing [Gokit][go-kit] project.
+The AddGokitMicroserviceDockerfile Editor adds an appropriate [Docker][docker] [Dockerfile][dockerfile] to an existing [Go kit][go-kit] project.
 
 [go-kit]: https://github.com/go-kit/kit
 [docker]: https://www.docker.com/
