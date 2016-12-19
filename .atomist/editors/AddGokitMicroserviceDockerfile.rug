@@ -21,11 +21,11 @@
 @tag "docker"
 editor AddGokitMicroserviceDockerfile
 
-@description "Name of project maintainer"
+@description "Name of the project maintainer"
 @displayName "Project Maintainer's Name"
 param maintainer_name: @any
 
-@description "Name of project maintainer's email address"
+@description "The project maintainer's email address"
 @displayName "Project Maintainer's Email Address"
 param maintainer_email: @any
 
