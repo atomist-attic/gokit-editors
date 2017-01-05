@@ -29,11 +29,11 @@ param maintainer_name: @any
 @displayName "Project Maintainer's Email Address"
 param maintainer_email: @any
 
-with project
+with Project
   do merge "Dockerfile.vm" "docker/Dockerfile"
 
-with project p
-    with dockerfile when path = "docker/Dockerfile" begin
+with Project p
+    with DockerFile when path = "docker/Dockerfile" begin
       do addOrUpdateMaintainer maintainer_name maintainer_email
       do addCopy { "./" + p.name() + " ./" }
       do addOrUpdateEntryPoint { "[\"dumb-init\", \"./" + p.name() + "\"]" }
