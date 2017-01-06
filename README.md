@@ -1,5 +1,6 @@
 # Atomist 'gokit-editors'
 
+[![Build Status](https://travis-ci.org/atomist-rugs/gokit-editors.svg?branch=master)](https://travis-ci.org/atomist-rugs/gokit-editors)
 [![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
 
 This [Rug](http://docs.atomist.com/) archive contains editors for
