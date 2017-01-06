@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [Unreleased]: https://github.com/atomist-rugs/gokit-editors/compare/0.2.0...HEAD
 
-## [0.2.0] - 2017-01-05
+## [0.2.0] - 2017-01-06
 
 Upgraded to Rug 0.8.0 including minor syntax changes to Rugs.
 
